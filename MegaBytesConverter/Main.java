@@ -24,7 +24,9 @@ public class Main {
 	        printMegaBytesAndKiloBytes(-1024); -> "Invalid Value"
 	        printMegaBytesAndKiloBytes(5000); -> "5000 KB = 4 MB and 904 KB"
 
-        TIPS: Use the remainder operator. 1 MB = 1024 KB. 
+        TIPS: Use the remainder operator. 1 MB = 1024 KB.
 	     */
+
+        MegaBytesConverter.printMegaBytesAndKiloBytes(0);
     }
 }
